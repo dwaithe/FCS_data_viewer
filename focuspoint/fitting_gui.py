@@ -19,7 +19,7 @@ from matplotlib.transforms import ScaledTranslation
 import matplotlib.gridspec as gridspec
 import numpy as np
 from focuspoint.fitting_extended import TableFilterBox, visualHisto, visualScatter
-from lmfit import minimize, Parameters,report_fit,report_errors, fit_report
+from lmfit import minimize, Parameters,report_fit, fit_report
 import time
 import errno
 import copy

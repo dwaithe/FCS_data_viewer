@@ -18,7 +18,7 @@ import os.path
 
 from scipy.special import _ufuncs_cxx
 import pickle
-from correlation_objects import *
+from focuspoint.correlation_objects import *
 import tifffile as tif_fn
 import json
 

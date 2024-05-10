@@ -3,7 +3,15 @@ import numpy
 setup(name='focuspoint',
 	version='0.1',
 	author='Dominic Waithe',
-	install_requires=['lmfit','matplotlib','cython'],
+	install_requires=[
+        'lmfit',
+        'matplotlib',
+        'cython',
+        'PyQt5',
+        'PyQtWebEngine',
+        'pyperclip',
+        'tifffile'
+        ],
 	include_package_data=True,
 	include_dirs=[numpy.get_include()],
 	ext_modules=[Extension('focuspoint.fib4', ['focuspoint/fib4.c'])],

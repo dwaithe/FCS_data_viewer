@@ -9,7 +9,7 @@ from focuspoint.fitting_methods import fitting_methods_SE as SE
 from focuspoint.fitting_methods import fitting_methods_GS as GS
 from focuspoint.fitting_methods import fitting_methods_VD as VD
 from focuspoint.fitting_methods import fitting_methods_PB as PB
-from lmfit import minimize, Parameters,report_fit,report_errors, fit_report
+from lmfit import minimize, Parameters,report_fit, fit_report
 import csv
 import copy
 
