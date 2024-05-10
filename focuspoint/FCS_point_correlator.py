@@ -1,5 +1,5 @@
-from fitting_gui import Form
-from correlation_gui import *
+from focuspoint.fitting_gui import Form
+from focuspoint.correlation_gui import *
 import sys
 
 

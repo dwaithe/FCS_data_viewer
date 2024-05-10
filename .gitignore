@@ -2,3 +2,5 @@ build
 dist
 focuspoint.egg-info
 __pycache__
+*.so
+*.pyd
